@@ -7,7 +7,7 @@ Daptta Eth-IO controller FW Update
 1. Using Chrome or Edge, visit https://dspins.github.io/ethio_fw_update/flash.html
 2. Plug your board into your computer
 3. Click the `Connect` button
-4. Select device on CP2102N USB to UART Controller. (This step requires drivers, presumably you already have them if you are here though!)
+4. Select device on CP2102N USB to UART Controller. (This step requires drivers, presumably you already have them)
 5. Select `Install...`
 6. In the Erase prompt just click `Next`
 7. In the next prompt click `Install`
