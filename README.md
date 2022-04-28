@@ -2,7 +2,7 @@
 Daptta Eth-IO controller FW Update
 
 
-## Testing
+## Flashing
 
 1. Using Chrome or Edge, visit https://dspins.github.io/EthIO_FWUpdate_first/flash.html
 2. Plug your board into your computer
