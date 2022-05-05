@@ -8,7 +8,7 @@ Daptta Eth-IO controller FW Update
 2. Plug your board into your computer
 3. Short the connection of the E-Stop connector
 4. Click the `Connect` button
-5. Select device on CP2102N USB to UART Controller. (This step requires drivers, presumably you already have them)
+5. Select device on CP2102N USB to UART Controller. (This step requires drivers, presumably you already have them. Download from https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 6. Select `Install...`
 7. In the Erase prompt just click `Next`
 8. In the next prompt click `Install`
