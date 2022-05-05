@@ -11,8 +11,24 @@
     <h1 style="font-family: Arial, Helvetica;">Daptta Eth-IO Controller FW update</h1>
 
     <div id="main" style="display: none; font-family: Arial, Helvetica;">
-
-        <br>
+        <ol>
+        <li>Use Chrome or Edge</li>
+        <li>Plug your board into your computer</li>
+        <li>Short the connection of the E-Stop connector</li>
+        <li>Click the Connect button</li>
+        <li>Select device on CP2102N USB to UART Controller. (This step requires drivers, presumably you already have them)</li>
+        <li>Select Install...</li>
+        <li>In the Erase prompt just click Next</li>
+        <li>In the next prompt click Install</li>
+        <li>It should now start flashing, wait a couple minutes to finish</li>
+        <li>Boot the board in Restore Mode to complete the flashing process</li>
+        </ol>
+        
+        
+        <br><br>
+        To enter Restore Mode power the device while pressing the User Button for more than 9 seconds, you will see both LEDs turn steady on, then release the button. To continue the restore process, press the button once, then, LED 2 will blink 4 times before applying the factory configuration, to stop this or exit this mode simply unplug the device. After the restore is done the device will restart.
+        
+        <br><br><br>
         <script
             type="module"
             src="https://unpkg.com/esp-web-tools@7.3.1/dist/web/install-button.js?module">
