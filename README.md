@@ -1,5 +1,5 @@
 # ethio_fw_update
-Daptta Eth-IO controller FW Update
+Eth-IO controller FW Update
 
 
 ## Flashing
